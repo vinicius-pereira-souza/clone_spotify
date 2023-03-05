@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss-cli styles.css -o src/css/styles.css"
+    "build": "npx tailwindcss-cli@latest styles.css -o src/css/styles.css"
   },
   "keywords": [],
   "author": "",
